@@ -1,0 +1,204 @@
+baseURL: "#"
+languageCode: "en-us"
+title: "Jivitesh Varshney | Portfolio"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  favicon: https://vectorified.com/images/coder-icon-9.png
+  description: "jivitesh's personal portfolio"
+
+  # Navbar Menus
+  
+
+  # home
+  disable_home: false
+  profile_image: /images/profile.png
+  name: "Jivitesh Varshney"
+  namecolor: ffc107
+  profession: "Data Scientist"
+  github: "https://github.com/jiviteshoo7"
+  linkedin: "https://www.linkedin.com/in/jivitesh-varshney-848641154/"
+  twitter: "https://twitter.com/lord__edge"
+  gmail: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jiviteshkumar.jk007@gmail.com"
+  instagram: "https://www.instagram.com/varshneyjiviteshoo7/"
+  
+
+  # Custom social links
+  customSocialLinks:
+    - fontAwesomeIconName: "fa fa-envelope"
+      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jiviteshkumar.jk007@gmail.com"
+      fontAwesomeIconName: "fa fa-envelope"
+      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jiviteshkumar.jk007@gmail.com"
+
+  # About
+  disable_about: false  
+  descripe_l1_person: "Hii there! Myself **Jivitesh** and I have completed my B.Tech in **EEE** at **AKTU** having CGPA of **8.51**. I am very passionate about evergrowing technology especially in the field of DataScience and Devops..."
+  descripe_l2_person: "### Real world capabilities"
+  descripe_l3_person: "I believe Skills are the ability to perform certain tasks well. Some skills can be measured and you acquire them through deliberate effort, others are related to your personality traits. In other words, not all skills are created equal. That’s why we call some of them “hard” and others “soft”.**Hard skills** are the skills that I’ve acquired through deliberate effort. They can be learned, taught, and measured.My hard skills include: **HTML, CSS, Python, SQL, JavaScript, MachineLearning, C and others.**
+  **Soft skills**, on the other hand, are closely tied to one’s personality traits. Some of my softskills are **leadership, communication, or other interpersonal skills**. As opposed to hard skills, soft skills cannot be easily taught. Examples of soft skills include: problem-solving, negotiating, multitasking, time management, presenting, and others."
+  descripe_l4_person: "*You can find my works [here](#projects)* "
+
+  skills:
+    - name: Python3
+      percentage: 80
+    - name: Flask 
+      percentage: 80
+    - name: Django
+      percentage: 70
+    - name: Machine Learning
+      percentage: 80
+    - name: Deep Learning
+      percentage: 80
+    - name: SQL
+      percentage: 80
+    - name: Mongodb
+      percentage: 70
+    - name: MLops
+      percentage: 70
+    - name: CI/CD pipelines
+      percentage: 70
+    - name: Dockers
+      percentage: 80
+    - name: Cloud Deployment automation
+      percentage: 80
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "SRF Foundation"
+      role: "Project Engineer"
+      startdate: "June 21 2021"
+      enddate: "Present"
+      featuredpoints:
+        - point: "Currently working as project engineer and work on various embedded projects."
+    - company: "Mashel Electric"
+      role: "Project Engineer"
+      startdate: "January 15 2020"
+      enddate: "July 17 2021"
+      featuredpoints:
+        - point:  "Worked as a CAD design engineer, managed a team along with delivery of project to the clients "
+
+    - company: "iNeuron"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Project Intern"
+      startdate: "March 1 2022"
+      enddate: "December 29 2022"
+      featuredpoints:
+        - point: "Solve an usecase on Industry level end to end machine learning project"
+        - point: "ML project domain was with respect to Finance"
+        - point: "Used MLOPS(DVC pipeline) for building and deploying the model."
+        - point: "Built CI/CD pipeline"
+        - point: "Used Flask Api as a backend"
+        - point: "Used Github actions for automatic build and deploy of the model"
+        - point: "Finally hosted to cloud environment I chose Heroku/AWS platform."
+  
+  #certifications section
+  disable_certification: false
+  certification:
+    - Name: Full Stack Data Science
+      institution: iNeuron.ai
+      startdate: "November 2021"
+      enddate: "December 2022"
+      link:
+        - weblink: "https://github.com/jiviteshoo7"
+          certificate: "View Certificate"
+    - Name: FSDS
+      institution: iNeuron.ai
+      startdate: "Nov 2021"
+      enddate: "December 2022"
+      link:
+        - weblink: "https://learn.ineuron.ai/certificate/15e42c35-46ae-4e72-a39d-16c0971606d0"
+          certificate: "View Certificate"
+    - Name: Data Analyst Virtual Experience
+      institution: Accenture by Forage
+      startdate: "July 2022"
+      enddate: "July 2022"
+      link:
+        - weblink: "https://drive.google.com/file/d/1KSSjKI5xMsGIv2BZhXUUyZjn0n9L2YiN/view?usp=share_link"
+          certificate: "View Certificate"
+    - Name: Python and Flask Framework
+      institution: Udemy
+      startdate: "January 2021"
+      enddate: "February 2021"
+      link:
+        - weblink: "https://drive.google.com/file/d/1-q5UtaA2IzIAd5x9Ojf1q16U8uEoORDU/view?usp=share_link"
+          certificate: "View Certificate"
+    - Name: Internet of Things
+      institution: Stanford University
+      startdate: "February 2021"
+      enddate: "March 2021"
+      link:
+        - weblink: "https://drive.google.com/file/d/17_VNX-W59pAmJkhWUnJKX4wa5wj3Xtfu/view?usp=share_link"
+          certificate: "View Certificate"
+      
+  # Education
+  disable_education: false
+  education:
+    - degree: "B.tech-"
+      branch: "EEE"
+      university: "AKTU"
+     
+      startedyear: "2016"
+      graduation: "2020"
+    - degree: "Class XII-"
+      branch: "PCM"
+      university: "State Board"
+      startedyear: "2014"
+      graduation: "2015"
+    - degree: "Class X"
+      university: "State Board"
+      startedyear: "2012"
+      graduation: "2013"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Consumer Complaint Sentimental Analysis Using AIops(POC)"
+      img: /images/credit.jpg
+      githublink: "https://github.com/jiviteshoo7/CreditCardDefaultPrediction"
+      featuredlink: ""
+      description: "This is ML based project and predict the credit card deafult from historical data"
+
+  # services
+  disable_achievements: false
+  achievements:
+    - title: "Website Development"
+      description: "Design a website for personal use or for business purpose using HTML and Python."
+      img: /images/Website-Design-new.jpg
+    - title: Data Analysis
+      description: "With the help of tableu or python analyze the data of the business or client needs which help them to solve business problems."
+      img: /images/da.jpg
+      # url: https://example.com
+    - title: Machine Learning & Deep Learning
+      description: "Build various types of ML and DL models according to business or client needs in which it helps to solve complex business issues." 
+      img: /images/ml.png
+    
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you! 
+  email: "jiviteshkumar.jk007@mail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: true
