@@ -88,12 +88,14 @@ params:
       enddate: "Present"
       featuredpoints:
         - point: "Currently working as project engineer and work on various embedded projects."
+  
     - company: "Mashel Electric"
       role: "Project Engineer"
       startdate: "January 15 2020"
       enddate: "July 17 2021"
       featuredpoints:
-        - point:  "Worked as a CAD design engineer, managed a team along with delivery of project to the clients "
+        - point: "Worked as a CAD design engineer"
+        - point: "Managed a team along with delivery of project to the clients."
 
     - company: "iNeuron"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
@@ -115,13 +117,6 @@ params:
     - Name: Full Stack Data Science
       institution: iNeuron.ai
       startdate: "November 2021"
-      enddate: "December 2022"
-      link:
-        - weblink: "https://github.com/jiviteshoo7"
-          certificate: "View Certificate"
-    - Name: FSDS
-      institution: iNeuron.ai
-      startdate: "Nov 2021"
       enddate: "December 2022"
       link:
         - weblink: "https://learn.ineuron.ai/certificate/15e42c35-46ae-4e72-a39d-16c0971606d0"
