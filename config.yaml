@@ -165,7 +165,7 @@ params:
   # Projects
   disable_projects: false
   projects:
-    - name: "Consumer Complaint Sentimental Analysis Using AIops(POC)"
+    - name: "CreditCard Default Prediction"
       img: /images/credit.jpg
       githublink: "https://github.com/jiviteshoo7/CreditCardDefaultPrediction"
       featuredlink: ""
