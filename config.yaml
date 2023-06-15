@@ -95,8 +95,6 @@ params:
         - point: "Used Flask Api as a backend"
         - point: "Used Github actions for automatic build and deploy of the model"
         - point: "Finally hosted to cloud environment I chose Heroku/AWS platform."
-        
-  experience:
     - company: "Mashel Electric"
       role: "Project Engineer"
       startdate: "January 15 2020"
