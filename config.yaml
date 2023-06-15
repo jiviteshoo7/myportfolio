@@ -49,9 +49,9 @@ params:
 
   # About
   disable_about: false  
-  descripe_l1_person: "Hii there! Myself **Jivitesh** and I have completed my B.Tech in **EEE** at **AKTU** having CGPA of **8.51**. I am very passionate about evergrowing technology especially in the field of DataScience and Devops..."
+  descripe_l1_person: "Hii there! Myself **Jivitesh** and I have completed my B.Tech in **EEE** at **AKTU** having CGPA of **8.51**. I am very passionate about evergrowing technology especially in the field of DataScience, Artificial Intelligence and Devops..."
   descripe_l2_person: "### Real world capabilities"
-  descripe_l3_person: "I believe Skills are the ability to perform certain tasks well. Some skills can be measured and you acquire them through deliberate effort, others are related to your personality traits. In other words, not all skills are created equal. That’s why we call some of them “hard” and others “soft”.**Hard skills** are the skills that I’ve acquired through deliberate effort. They can be learned, taught, and measured.My hard skills include: **HTML, CSS, Python, SQL, JavaScript, MachineLearning, C and others.**
+  descripe_l3_person: "I believe Skills are the ability to perform certain tasks well. Some skills can be measured and you acquire them through deliberate effort, others are related to your personality traits. In other words, not all skills are created equal. That’s why we call some of them “hard” and others “soft”.**Hard skills** are the skills that I’ve acquired through deliberate effort. They can be learned, taught, and measured.My tech skills include: **HTML, CSS, Python, SQL, Django, MachineLearning, C and others.**
   **Soft skills**, on the other hand, are closely tied to one’s personality traits. Some of my softskills are **leadership, communication, or other interpersonal skills**. As opposed to hard skills, soft skills cannot be easily taught. Examples of soft skills include: problem-solving, negotiating, multitasking, time management, presenting, and others."
   descripe_l4_person: "*You can find my works [here](#projects)* "
 
@@ -88,6 +88,13 @@ params:
       enddate: "Present"
       featuredpoints:
         - point: "Currently working as project engineer and work on scripting based python projects."
+        - point: "Solve an usecase on Industry level end to end machine learning project"
+        - point: "ML project domain was with respect to Finance"
+        - point: "Used MLOPS(DVC pipeline) for building and deploying the model."
+        - point: "Built CI/CD pipeline"
+        - point: "Used Flask Api as a backend"
+        - point: "Used Github actions for automatic build and deploy of the model"
+        - point: "Finally hosted to cloud environment I chose Heroku/AWS platform."
   
     - company: "Mashel Electric"
       role: "Project Engineer"
@@ -96,20 +103,6 @@ params:
       featuredpoints:
         - point: "Worked as a CAD design engineer"
         - point: "Managed a team along with delivery of project to the clients."
-
-    - company: "iNeuron"
-      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Project Intern"
-      startdate: "March 1 2022"
-      enddate: "December 29 2022"
-      featuredpoints:
-        - point: "Solve an usecase on Industry level end to end machine learning project"
-        - point: "ML project domain was with respect to Finance"
-        - point: "Used MLOPS(DVC pipeline) for building and deploying the model."
-        - point: "Built CI/CD pipeline"
-        - point: "Used Flask Api as a backend"
-        - point: "Used Github actions for automatic build and deploy of the model"
-        - point: "Finally hosted to cloud environment I chose Heroku/AWS platform."
   
   #certifications section
   disable_certification: false
